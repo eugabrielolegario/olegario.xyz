@@ -1,4 +1,3 @@
-import './App.css'
 import Medium from './components/Medium'
 
 function App() {
