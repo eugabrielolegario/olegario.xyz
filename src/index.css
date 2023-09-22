@@ -66,3 +66,30 @@ ul {
   display: flex;
   justify-content: flex-end;
 }
+
+/* Screens up to 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .header-container h1 {
+    justify-content: center; 
+  }
+
+  .medium-container,
+  .footer-container {
+    justify-content: center; 
+  }
+}
+
+/* Screens up to 480px (mobile devices) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0.5rem; 
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+}
