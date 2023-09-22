@@ -2,7 +2,7 @@ import { IFooter } from '../interfaces/Footer';
 
 function Footer({ linkedin, linkedinURL, email, emailURL }: IFooter) {
   return (
-    <footer>  
+    <footer className='footer-container'>  
         <ul>
           <li>
             <a href={linkedinURL}>{linkedin}</a>

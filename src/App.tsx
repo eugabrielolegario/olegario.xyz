@@ -5,8 +5,8 @@ import Medium from './components/Medium'
 function App() {
 
   return (
-    <>
-      <Header 
+    <div className='container'>
+      <Header
         title='Gabriel Olegário'
       />
       <Medium />
@@ -16,7 +16,7 @@ function App() {
         email='Get in touch'
         emailURL='mailto:gabriel.oligar@gmail.com'
       />
-    </>
+    </div>
   )
 }
 

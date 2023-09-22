@@ -13,7 +13,7 @@ function Medium() {
   }, []);
 
   return (
-    <div>
+    <div className='medium-container'>
       <ul>
         {articles.map((article) => (
           <li key={article.link}>
