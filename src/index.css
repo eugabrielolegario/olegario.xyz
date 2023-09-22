@@ -34,7 +34,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 ul {
@@ -74,6 +74,12 @@ ul {
   position: fixed;
   bottom: 0;
   padding-bottom: 20px;
+}
+
+/* if you want to diplay the items vertically just comment the line below and you're ready to go, oh yes of course thank you */
+.footer-container ul > li {
+  display: inline-block;
+  padding: 5px;
 }
 
 /* Screens up to 768px (tablets and smaller) */
