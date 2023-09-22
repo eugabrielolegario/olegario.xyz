@@ -51,20 +51,29 @@ ul {
   padding: 2rem;
 }
 
-.header-container h1 {
+.header-container {
   display: flex;
   justify-content: flex-end;
 }
 
-.medium-container {
+.medium-container div {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start; 
+}
+
+.medium-container li {
+  padding-top: 5px;
 }
 
 .footer-container {
   display: flex;
   justify-content: flex-end;
+}
+
+.footer-container div {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 20px;
 }
 
 /* Screens up to 768px (tablets and smaller) */
