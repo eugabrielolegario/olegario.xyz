@@ -6,10 +6,10 @@ function Footer({ linkedin, linkedinURL, email, emailURL }: IFooter) {
       <div>
         <ul>
           <li>
-            <a href={linkedinURL}>{linkedin}</a>
+            <a href={linkedinURL} target='_blank' rel='noopener noreferrer'>{linkedin}</a>
           </li>
           <li>
-            <a href={emailURL}>{email}</a>
+            <a href={emailURL} target='_blank' rel='noopener noreferrer'>{email}</a>
           </li>
         </ul>
       </div>

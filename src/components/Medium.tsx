@@ -18,7 +18,7 @@ function Medium() {
         <ul>
           {articles.map((article) => (
             <li key={article.link}>
-              <a href={article.link}>{article.title}</a>
+              <a href={article.link} target='_blank' rel='noopener noreferrer'>{article.title}</a>
             </li>
           ))}
         </ul>
