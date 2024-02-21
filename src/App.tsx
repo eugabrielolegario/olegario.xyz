@@ -15,6 +15,8 @@ function App() {
         linkedinURL='https://www.linkedin.com/in/gabrielolegario/'
         email='Get in touch'
         emailURL='mailto:gabriel.oligar@gmail.com'
+        lattes='Get in touch'
+        lattesURL='http://lattes.cnpq.br/3356641150603825'
       />
     </div>
   )
