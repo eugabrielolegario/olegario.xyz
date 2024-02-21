@@ -1,6 +1,6 @@
 import { IFooter } from '../interfaces/Footer';
 
-function Footer({ linkedin, linkedinURL, email, emailURL }: IFooter) {
+function Footer({ linkedin, linkedinURL, email, emailURL, lattes, lattesURL }: IFooter) {
   return (
     <footer className='footer-container'>  
       <div>
