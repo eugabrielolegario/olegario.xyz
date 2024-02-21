@@ -3,4 +3,6 @@ export interface IFooter {
   linkedinURL: string;
   email: string;
   emailURL: string;
+  lattes: string;
+ lattesURL: string;
 }
