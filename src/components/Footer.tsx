@@ -11,6 +11,9 @@ function Footer({ linkedin, linkedinURL, email, emailURL }: IFooter) {
           <li>
             <a href={emailURL} target='_blank' rel='noopener noreferrer'>{email}</a>
           </li>
+          <li>
+            <a href={lattesURL} target='_blank' rel='noopener noreferrer'>{;attes}</a>
+          </li>
         </ul>
       </div>
     </footer>
